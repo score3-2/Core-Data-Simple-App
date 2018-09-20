@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA35A78C21534E1600038AFB /* Core Data By RW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data By RW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA35A78C21534E1600038AFB /* Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA35A78F21534E1600038AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA35A79121534E1600038AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA35A79421534E1600038AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		DA35A79921534E1700038AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA35A79C21534E1700038AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA35A79E21534E1700038AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA35A7A321534E1700038AFB /* Core Data By RWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data By RWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA35A7A321534E1700038AFB /* Core DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA35A7A721534E1700038AFB /* Core_Data_By_RWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_By_RWTests.swift; sourceTree = "<group>"; };
 		DA35A7A921534E1700038AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA35A7AE21534E1700038AFB /* Core Data By RWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data By RWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA35A7AE21534E1700038AFB /* Core DataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core DataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA35A7B221534E1700038AFB /* Core_Data_By_RWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_By_RWUITests.swift; sourceTree = "<group>"; };
 		DA35A7B421534E1700038AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		DA35A78D21534E1600038AFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA35A78C21534E1600038AFB /* Core Data By RW.app */,
-				DA35A7A321534E1700038AFB /* Core Data By RWTests.xctest */,
-				DA35A7AE21534E1700038AFB /* Core Data By RWUITests.xctest */,
+				DA35A78C21534E1600038AFB /* Core Data.app */,
+				DA35A7A321534E1700038AFB /* Core DataTests.xctest */,
+				DA35A7AE21534E1700038AFB /* Core DataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA35A78B21534E1600038AFB /* Core Data By RW */ = {
+		DA35A78B21534E1600038AFB /* Core Data */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA35A7B721534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RW" */;
+			buildConfigurationList = DA35A7B721534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data" */;
 			buildPhases = (
 				DA35A78821534E1600038AFB /* Sources */,
 				DA35A78921534E1600038AFB /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "Core Data By RW";
+			name = "Core Data";
 			productName = "Core Data By RW";
-			productReference = DA35A78C21534E1600038AFB /* Core Data By RW.app */;
+			productReference = DA35A78C21534E1600038AFB /* Core Data.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA35A7A221534E1700038AFB /* Core Data By RWTests */ = {
+		DA35A7A221534E1700038AFB /* Core DataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA35A7BA21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RWTests" */;
+			buildConfigurationList = DA35A7BA21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core DataTests" */;
 			buildPhases = (
 				DA35A79F21534E1700038AFB /* Sources */,
 				DA35A7A021534E1700038AFB /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				DA35A7A521534E1700038AFB /* PBXTargetDependency */,
 			);
-			name = "Core Data By RWTests";
+			name = "Core DataTests";
 			productName = "Core Data By RWTests";
-			productReference = DA35A7A321534E1700038AFB /* Core Data By RWTests.xctest */;
+			productReference = DA35A7A321534E1700038AFB /* Core DataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA35A7AD21534E1700038AFB /* Core Data By RWUITests */ = {
+		DA35A7AD21534E1700038AFB /* Core DataUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA35A7BD21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RWUITests" */;
+			buildConfigurationList = DA35A7BD21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core DataUITests" */;
 			buildPhases = (
 				DA35A7AA21534E1700038AFB /* Sources */,
 				DA35A7AB21534E1700038AFB /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				DA35A7B021534E1700038AFB /* PBXTargetDependency */,
 			);
-			name = "Core Data By RWUITests";
+			name = "Core DataUITests";
 			productName = "Core Data By RWUITests";
-			productReference = DA35A7AE21534E1700038AFB /* Core Data By RWUITests.xctest */;
+			productReference = DA35A7AE21534E1700038AFB /* Core DataUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA35A78721534E1600038AFB /* Build configuration list for PBXProject "Core Data By RW" */;
+			buildConfigurationList = DA35A78721534E1600038AFB /* Build configuration list for PBXProject "Core Data" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA35A78B21534E1600038AFB /* Core Data By RW */,
-				DA35A7A221534E1700038AFB /* Core Data By RWTests */,
-				DA35A7AD21534E1700038AFB /* Core Data By RWUITests */,
+				DA35A78B21534E1600038AFB /* Core Data */,
+				DA35A7A221534E1700038AFB /* Core DataTests */,
+				DA35A7AD21534E1700038AFB /* Core DataUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		DA35A7A521534E1700038AFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA35A78B21534E1600038AFB /* Core Data By RW */;
+			target = DA35A78B21534E1600038AFB /* Core Data */;
 			targetProxy = DA35A7A421534E1700038AFB /* PBXContainerItemProxy */;
 		};
 		DA35A7B021534E1700038AFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA35A78B21534E1600038AFB /* Core Data By RW */;
+			target = DA35A78B21534E1600038AFB /* Core Data */;
 			targetProxy = DA35A7AF21534E1700038AFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Data By RW.app/Core Data By RW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Data.app/Core Data";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Data By RW.app/Core Data By RW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Data.app/Core Data";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA35A78721534E1600038AFB /* Build configuration list for PBXProject "Core Data By RW" */ = {
+		DA35A78721534E1600038AFB /* Build configuration list for PBXProject "Core Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA35A7B521534E1700038AFB /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA35A7B721534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RW" */ = {
+		DA35A7B721534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA35A7B821534E1700038AFB /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA35A7BA21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RWTests" */ = {
+		DA35A7BA21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core DataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA35A7BB21534E1700038AFB /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA35A7BD21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core Data By RWUITests" */ = {
+		DA35A7BD21534E1700038AFB /* Build configuration list for PBXNativeTarget "Core DataUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA35A7BE21534E1700038AFB /* Debug */,
